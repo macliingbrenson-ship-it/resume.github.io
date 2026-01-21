@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #111;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+#themeBtn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Sections */
+.section {
+    padding: 60px 30px;
+    border-bottom: 1px solid #333;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-list {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ccc;
+}
+
+/* Form */
+form {
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+}
+
+/* Light Mode */
+.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+.light-mode .navbar,
+.light-mode footer {
+    background-color: #eee;
+}
+
+.light-mode a {
+    color: #000;
+}
